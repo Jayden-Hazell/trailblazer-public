@@ -24,4 +24,12 @@ maps/*
 *.log
 *.csv
 *.txt
-~/.ros/trailblazer_logs/
+~/.ros/trailblazer_logs/build/
+install/
+log/
+__pycache__/
+*.pyc
+data/*
+maps/*
+!data/.gitkeep
+!maps/.gitkeep
