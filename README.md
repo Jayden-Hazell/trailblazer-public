@@ -8,11 +8,11 @@ Autonomous Drone Navigation using ROS 2 Humble, Nav2, and Custom Terrain-Followi
 The final version of the Trailblazer project is publicly available on GitHub:  
 **https://github.com/jaydenhazell/trailblazer-final**
 
-If private access is required, permission has been granted to:  
-- **Subject Coordinator:** graeme.best@uts.edu.au  
-- **Tutor:** [insert tutor email here]
+To download the repository onto your device.
 
-Alternatively, the final code can be uploaded to Canvas as a `.zip` file containing the complete `trailblazer` package (without git history).
+```bash
+git clone https://github.com/Jayden-Hazell/trailblazer-public.git
+```
 
 ---
 
@@ -21,10 +21,9 @@ Alternatively, the final code can be uploaded to Canvas as a `.zip` file contain
 ROS 2 Humble and Gazebo Fortress must be installed prior to running the project.
 
 ### Build the Workspace
-Replace `rs1` with your chosen directory name:
 
 ```bash
-cd ~/rs1
+cd ~/trailblazer-public
 colcon build --symlink-install
 source install/setup.bash
 ```
